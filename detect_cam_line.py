@@ -15,7 +15,7 @@ c=0
 # 發送line的副程式
 def lineme():
     url = 'https://notify-api.line.me/api/notify'
-    token = 'hPZxBecN7MzfbPl3fInJwGWnLRX0uQ2zoLQtVXqcekW'
+    token = '你的line權杖'
     headers = {'Authorization': 'Bearer ' + token}
     data = {'message':'偵測異常通知'}
     image=open('line.jpg', 'rb')
