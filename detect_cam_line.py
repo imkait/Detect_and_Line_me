@@ -1,8 +1,6 @@
 import cv2
 import time
 from ultralytics import YOLO
-
-'''發送line訊息變數與副程式'''
 import requests
 
 # 發送訊息時間，放在迴圈前
